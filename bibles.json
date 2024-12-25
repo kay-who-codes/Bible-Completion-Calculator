@@ -1,0 +1,464 @@
+[
+    {
+        "book": "Genesis",
+        "book_num": 1,
+        "num_chapters": 50,
+        "num_verses": 1533,
+        "num_words": 36397
+    },
+    {
+        "book": "Exodus",
+        "book_num": 2,
+        "num_chapters": 40,
+        "num_verses": 1213,
+        "num_words": 31005
+    },
+    {
+        "book": "Leviticus",
+        "book_num": 3,
+        "num_chapters": 27,
+        "num_verses": 859,
+        "num_words": 23493
+    },
+    {
+        "book": "Numbers",
+        "book_num": 4,
+        "num_chapters": 36,
+        "num_verses": 1288,
+        "num_words": 31043
+    },
+    {
+        "book": "Deuteronomy",
+        "book_num": 5,
+        "num_chapters": 34,
+        "num_verses": 959,
+        "num_words": 27618
+    },
+    {
+        "book": "Joshua",
+        "book_num": 6,
+        "num_chapters": 24,
+        "num_verses": 658,
+        "num_words": 17993
+    },
+    {
+        "book": "Judges",
+        "book_num": 7,
+        "num_chapters": 21,
+        "num_verses": 618,
+        "num_words": 18312
+    },
+    {
+        "book": "Ruth",
+        "book_num": 8,
+        "num_chapters": 4,
+        "num_verses": 85,
+        "num_words": 2437
+    },
+    {
+        "book": "1 Samuel",
+        "book_num": 9,
+        "num_chapters": 31,
+        "num_verses": 810,
+        "num_words": 24168
+    },
+    {
+        "book": "2 Samuel",
+        "book_num": 10,
+        "num_chapters": 24,
+        "num_verses": 695,
+        "num_words": 19795
+    },
+    {
+        "book": "1 Kings",
+        "book_num": 11,
+        "num_chapters": 22,
+        "num_verses": 816,
+        "num_words": 23520
+    },
+    {
+        "book": "2 Kings",
+        "book_num": 12,
+        "num_chapters": 25,
+        "num_verses": 719,
+        "num_words": 22912
+    },
+    {
+        "book": "1 Chronicles",
+        "book_num": 13,
+        "num_chapters": 29,
+        "num_verses": 942,
+        "num_words": 18580
+    },
+    {
+        "book": "2 Chronicles",
+        "book_num": 14,
+        "num_chapters": 36,
+        "num_verses": 822,
+        "num_words": 24856
+    },
+    {
+        "book": "Ezra",
+        "book_num": 15,
+        "num_chapters": 10,
+        "num_verses": 280,
+        "num_words": 6921
+    },
+    {
+        "book": "Nehemiah",
+        "book_num": 16,
+        "num_chapters": 13,
+        "num_verses": 406,
+        "num_words": 9874
+    },
+    {
+        "book": "Esther",
+        "book_num": 17,
+        "num_chapters": 10,
+        "num_verses": 167,
+        "num_words": 5484
+    },
+    {
+        "book": "Job",
+        "book_num": 18,
+        "num_chapters": 42,
+        "num_verses": 1070,
+        "num_words": 17627
+    },
+    {
+        "book": "Psalms",
+        "book_num": 19,
+        "num_chapters": 150,
+        "num_verses": 2461,
+        "num_words": 41273
+    },
+    {
+        "book": "Proverbs",
+        "book_num": 20,
+        "num_chapters": 31,
+        "num_verses": 915,
+        "num_words": 14552
+    },
+    {
+        "book": "Ecclesiastes",
+        "book_num": 21,
+        "num_chapters": 12,
+        "num_verses": 222,
+        "num_words": 5376
+    },
+    {
+        "book": "Song of Solomon",
+        "book_num": 22,
+        "num_chapters": 8,
+        "num_verses": 117,
+        "num_words": 2576
+    },
+    {
+        "book": "Isaiah",
+        "book_num": 23,
+        "num_chapters": 66,
+        "num_verses": 1292,
+        "num_words": 35385
+    },
+    {
+        "book": "Jeremiah",
+        "book_num": 24,
+        "num_chapters": 52,
+        "num_verses": 1364,
+        "num_words": 40544
+    },
+    {
+        "book": "Lamentations",
+        "book_num": 25,
+        "num_chapters": 5,
+        "num_verses": 154,
+        "num_words": 3253
+    },
+    {
+        "book": "Ezekiel",
+        "book_num": 26,
+        "num_chapters": 48,
+        "num_verses": 1273,
+        "num_words": 37309
+    },
+    {
+        "book": "Daniel",
+        "book_num": 27,
+        "num_chapters": 12,
+        "num_verses": 357,
+        "num_words": 11272
+    },
+    {
+        "book": "Hosea",
+        "book_num": 28,
+        "num_chapters": 14,
+        "num_verses": 197,
+        "num_words": 4976
+    },
+    {
+        "book": "Joel",
+        "book_num": 29,
+        "num_chapters": 3,
+        "num_verses": 73,
+        "num_words": 1917
+    },
+    {
+        "book": "Amos",
+        "book_num": 30,
+        "num_chapters": 9,
+        "num_verses": 146,
+        "num_words": 4067
+    },
+    {
+        "book": "Obadiah",
+        "book_num": 31,
+        "num_chapters": 1,
+        "num_verses": 21,
+        "num_words": 614
+    },
+    {
+        "book": "Jonah",
+        "book_num": 32,
+        "num_chapters": 4,
+        "num_verses": 48,
+        "num_words": 1312
+    },
+    {
+        "book": "Micah",
+        "book_num": 33,
+        "num_chapters": 7,
+        "num_verses": 105,
+        "num_words": 3022
+    },
+    {
+        "book": "Nahum",
+        "book_num": 34,
+        "num_chapters": 3,
+        "num_verses": 47,
+        "num_words": 1111
+    },
+    {
+        "book": "Habakkuk",
+        "book_num": 35,
+        "num_chapters": 3,
+        "num_verses": 56,
+        "num_words": 1373
+    },
+    {
+        "book": "Zephaniah",
+        "book_num": 36,
+        "num_chapters": 3,
+        "num_verses": 53,
+        "num_words": 1573
+    },
+    {
+        "book": "Haggai",
+        "book_num": 37,
+        "num_chapters": 2,
+        "num_verses": 38,
+        "num_words": 1095
+    },
+    {
+        "book": "Zechariah",
+        "book_num": 38,
+        "num_chapters": 14,
+        "num_verses": 211,
+        "num_words": 6083
+    },
+    {
+        "book": "Malachi",
+        "book_num": 39,
+        "num_chapters": 4,
+        "num_verses": 55,
+        "num_words": 1752
+    },
+    {
+        "book": "Matthew",
+        "book_num": 40,
+        "num_chapters": 28,
+        "num_verses": 1067,
+        "num_words": 23019
+    },
+    {
+        "book": "Mark",
+        "book_num": 41,
+        "num_chapters": 16,
+        "num_verses": 673,
+        "num_words": 14596
+    },
+    {
+        "book": "Luke",
+        "book_num": 42,
+        "num_chapters": 24,
+        "num_verses": 1149,
+        "num_words": 25010
+    },
+    {
+        "book": "John",
+        "book_num": 43,
+        "num_chapters": 21,
+        "num_verses": 866,
+        "num_words": 18841
+    },
+    {
+        "book": "Acts",
+        "book_num": 44,
+        "num_chapters": 28,
+        "num_verses": 1003,
+        "num_words": 23633
+    },
+    {
+        "book": "Romans",
+        "book_num": 45,
+        "num_chapters": 16,
+        "num_verses": 432,
+        "num_words": 9530
+    },
+    {
+        "book": "1 Corinthians",
+        "book_num": 46,
+        "num_chapters": 16,
+        "num_verses": 437,
+        "num_words": 9314
+    },
+    {
+        "book": "2 Corinthians",
+        "book_num": 47,
+        "num_chapters": 13,
+        "num_verses": 257,
+        "num_words": 6077
+    },
+    {
+        "book": "Galatians",
+        "book_num": 48,
+        "num_chapters": 6,
+        "num_verses": 149,
+        "num_words": 3133
+    },
+    {
+        "book": "Ephesians",
+        "book_num": 49,
+        "num_chapters": 6,
+        "num_verses": 155,
+        "num_words": 3014
+    },
+    {
+        "book": "Philippians",
+        "book_num": 50,
+        "num_chapters": 4,
+        "num_verses": 104,
+        "num_words": 2160
+    },
+    {
+        "book": "Colossians",
+        "book_num": 51,
+        "num_chapters": 4,
+        "num_verses": 95,
+        "num_words": 1950
+    },
+    {
+        "book": "1 Thessalonians",
+        "book_num": 52,
+        "num_chapters": 5,
+        "num_verses": 89,
+        "num_words": 1854
+    },
+    {
+        "book": "2 Thessalonians",
+        "book_num": 53,
+        "num_chapters": 3,
+        "num_verses": 47,
+        "num_words": 1065
+    },
+    {
+        "book": "1 Timothy",
+        "book_num": 54,
+        "num_chapters": 6,
+        "num_verses": 113,
+        "num_words": 2314
+    },
+    {
+        "book": "2 Timothy",
+        "book_num": 55,
+        "num_chapters": 4,
+        "num_verses": 83,
+        "num_words": 1647
+    },
+    {
+        "book": "Titus",
+        "book_num": 56,
+        "num_chapters": 3,
+        "num_verses": 46,
+        "num_words": 928
+    },
+    {
+        "book": "Philemon",
+        "book_num": 57,
+        "num_chapters": 1,
+        "num_verses": 25,
+        "num_words": 461
+    },
+    {
+        "book": "Hebrews",
+        "book_num": 58,
+        "num_chapters": 13,
+        "num_verses": 303,
+        "num_words": 6935
+    },
+    {
+        "book": "James",
+        "book_num": 59,
+        "num_chapters": 5,
+        "num_verses": 108,
+        "num_words": 2331
+    },
+    {
+        "book": "1 Peter",
+        "book_num": 60,
+        "num_chapters": 5,
+        "num_verses": 105,
+        "num_words": 2405
+    },
+    {
+        "book": "2 Peter",
+        "book_num": 61,
+        "num_chapters": 3,
+        "num_verses": 61,
+        "num_words": 1549
+    },
+    {
+        "book": "1 John",
+        "book_num": 62,
+        "num_chapters": 5,
+        "num_verses": 105,
+        "num_words": 2507
+    },
+    {
+        "book": "2 John",
+        "book_num": 63,
+        "num_chapters": 1,
+        "num_verses": 13,
+        "num_words": 302
+    },
+    {
+        "book": "3 John",
+        "book_num": 64,
+        "num_chapters": 1,
+        "num_verses": 15,
+        "num_words": 303
+    },
+    {
+        "book": "Jude",
+        "book_num": 65,
+        "num_chapters": 1,
+        "num_verses": 25,
+        "num_words": 610
+    },
+    {
+        "book": "Revelation",
+        "book_num": 66,
+        "num_chapters": 22,
+        "num_verses": 404,
+        "num_words": 11526
+    }
+]

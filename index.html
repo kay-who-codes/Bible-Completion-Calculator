@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>✝️ Bible Completion Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Bible Completion Calculator</h1>
+    <p id="subheader" class="subheader">Calculate how long you'll take to read the Bible</p>
+
+    <!-- Method 1 -->
+    <div class="input-section">
+      <h3 class="h3">Calculator 1</h3>
+      <label for="book">Select Book:</label>
+      <select id="book"></select>
+
+      <label for="chapter">Enter Current Chapter:</label>
+      <input type="number" id="chapter" min="1">
+
+      <label for="time-per-chapter">Time Per Chapter (minutes):</label>
+      <input type="number" id="time-per-chapter" min="1">
+
+      <label for="daily-reading-minutes1">Minutes of Reading per Day:</label>
+      <input type="number" id="daily-reading-minutes1" min="1" value="30">
+    </div>
+
+    <div class="output-section" id="output-method1">
+      <h2></h2>
+      <p id="output1"></p>
+    </div>
+
+    <!-- Method 2 -->
+    <div class="input-section">
+      <h3>Calculator 2</h3>
+      <label for="total-pages">Total Pages in Your Bible:</label>
+      <input type="number" id="total-pages" min="1" value="4449">
+
+      <label for="current-page">Current Page:</label>
+      <input type="number" id="current-page" min="1">
+
+      <label for="time-per-page">Time Per Page (minutes):</label>
+      <input type="number" id="time-per-page" min="1">
+
+      <label for="daily-reading-minutes2">Minutes of Reading per Day:</label>
+      <input type="number" id="daily-reading-minutes2" min="1" value="30">
+    </div>
+
+    <div class="output-section" id="output-method2">
+      <h2></h2>
+      <p id="output2"></p>
+    </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
