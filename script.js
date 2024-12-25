@@ -1,3 +1,17 @@
+// HEADER BAR
+// Toggle dropdown visibility
+function toggleDropdown() {
+  const dropdown = document.querySelector('.dropdown');
+  dropdown.classList.toggle('show');
+}
+// Close dropdown when clicking outside
+window.addEventListener('click', (event) => {
+  const dropdown = document.querySelector('.dropdown');
+  if (!dropdown.contains(event.target)) {
+    dropdown.classList.remove('show');
+  }
+});
+
 // Load Bible Data
 fetch('bibles.json')
   .then((response) => response.json())
@@ -66,12 +80,14 @@ function calculateMethod1() {
   const totalTimeInHours = totalTimeInMinutes / 60;
 
   // Calculate days based on reading minutes per day
-  const totalTimeDays = Math.round(totalTimeInMinutes / (dailyReadingMinutes * 1));
+  const totalTimeDays = Math.round(totalTimeInMinutes / dailyReadingMinutes);
 
   displayOutput(
-    `Total time to finish the Bible (Method 1): ${totalTimeInHours.toFixed(2)} hours (~${totalTimeDays} days at ${dailyReadingMinutes} minutes/day).`,
+    `Time to finish the Bible (Method 1): ${totalTimeInHours.toFixed(2)} hours (~${totalTimeDays} days at ${dailyReadingMinutes} minutes/day).`,
     "output1"
   );
+
+  calculateAverage();
 }
 
 // Calculate Method 2 (Pages)
@@ -94,12 +110,45 @@ function calculateMethod2() {
   const totalTimeInHours = totalTimeInMinutes / 60;
 
   // Calculate days based on reading minutes per day
-  const totalTimeDays = Math.round(totalTimeInMinutes / (dailyReadingMinutes * 1));
+  const totalTimeDays = Math.round(totalTimeInMinutes / dailyReadingMinutes);
 
   displayOutput(
-    `Total time to finish the Bible (Method 2): ${totalTimeInHours.toFixed(2)} hours (~${totalTimeDays} days at ${dailyReadingMinutes} minutes/day).`,
+    `Time to finish the Bible (Method 2): ${totalTimeInHours.toFixed(2)} hours (~${totalTimeDays} days at ${dailyReadingMinutes} minutes/day).`,
     "output2"
   );
+
+  calculateAverage();
+}
+
+// Calculate and display average result
+function calculateAverage() {
+  const output1Text = document.getElementById("output1").textContent;
+  const output2Text = document.getElementById("output2").textContent;
+
+  if (!output1Text || !output2Text) {
+    return;
+  }
+
+  const output1Hours = parseFloat(output1Text.match(/(\d+\.\d+) hours/)[1]);
+  const output2Hours = parseFloat(output2Text.match(/(\d+\.\d+) hours/)[1]);
+  const output1Days = parseInt(output1Text.match(/~(\d+) days/)[1], 10);
+  const output2Days = parseInt(output2Text.match(/~(\d+) days/)[1], 10);
+  const output1MinutesPerDay = parseInt(output1Text.match(/at (\d+) minutes\/day/)[1], 10);
+  const output2MinutesPerDay = parseInt(output2Text.match(/at (\d+) minutes\/day/)[1], 10);
+
+  const averageHours = (output1Hours + output2Hours) / 2;
+  const averageDays = Math.round((output1Days + output2Days) / 2);
+  const averageMinutesPerDay = Math.round((output1MinutesPerDay + output2MinutesPerDay) / 2);
+
+  const averageContainer = document.getElementById("average-container");
+  
+  displayOutput(
+    `Average time to finish the Bible: ${averageHours.toFixed(2)} hours (~${averageDays} days at ${averageMinutesPerDay} minutes/day).`,
+    "output3"
+  );
+
+  // Show the average container
+  averageContainer.style.display = "block";
 }
 
 // Display Output

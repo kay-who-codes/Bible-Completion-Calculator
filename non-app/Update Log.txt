@@ -2,3 +2,7 @@ App Update: 1
 Date of Update: 25 Dec 2024 @ 11:55
 Details: Created
 
+App Update: 2
+Date of Update: 25 Dec 2024 @ 12:50
+Details: Added average calculation + header & footer
+

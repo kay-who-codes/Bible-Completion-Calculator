@@ -7,6 +7,24 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <header class="header-bar">
+    <a href="https://github.com/kay-who-codes/Bible-Completion-Calculator" class="header-link">✝️ Bible Completion Calculator</a>
+    <div class="dropdown">
+      <button class="dropbtn" onclick="toggleDropdown()">More Apps</button>
+      <div class="dropdown-content" id="dropdownMenu">
+        <a href="https://kay-who-codes.github.io/Cards-Against-Humanity/">⬜ Cards Against Humanity</a>
+        <a href="https://kay-who-codes.github.io/Ultimate-Drinking-Cards">🍻 Ultimate Drinking Cards</a>
+        <a href="https://kay-who-codes.github.io/Kings-Cup/">🍺 Kings Cup</a>
+        <a href="https://kay-who-codes.github.io/Daily-Comic-Strips/">🗞️ Comic Strips</a>
+        <a href="https://kay-who-codes.github.io/Soundboard/">🔊 Soundboard</a>
+        <a href="https://kay-who-codes.github.io/Greek-Case-Quiz/">🇬🇷 Greek Case Quiz</a>
+        <a href="https://kay-who-codes.github.io/Skint-Countdown/">⌛ Skint Countdown</a>
+        <a href="https://kay-who-codes.github.io/Song-Inspirator/">🎶 Song Inspirator</a>
+        <a href="https://kay-who-codes.github.io/Random-Numbers/">🔢 Random Number Generator</a>
+        <a href="https://kay-who-codes.github.io/Coinflip/">🪙 Coinflip</a>
+      </div>
+    </div>
+  </header>
   <div class="container">
     <h1>Bible Completion Calculator</h1>
     <p id="subheader" class="subheader">Calculate how long you'll take to read the Bible</p>
@@ -52,6 +70,19 @@
       <h2></h2>
       <p id="output2"></p>
     </div>
+  </div>
+
+  <!-- New container for Method 3 (Average) -->
+  <div class="container" id="average-container">
+    <div class="output-section" id="output-method3">
+      <h2>Average Time to Read</h2>
+      <p id="output3"></p>
+    </div>
+  </div>
+
+  <footer id="footer">
+    Made by <a href="https://linktr.ee/kaywhocreates" target="_blank" rel="noopener noreferrer">Kay 🧡</a>
+  </footer>
 
   <script src="script.js" defer></script>
 </body>
