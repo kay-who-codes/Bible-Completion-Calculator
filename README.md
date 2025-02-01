@@ -2,7 +2,7 @@
 
 Calculate how long it will take to read the entire Bible based on your reading speed.
 
-![App Image](non-app/App%20Image.png)
+[![App Image](non-app/App%20Image.png)](https://kay-who-codes.github.io/Bible-Completion-Calculator/)
 
 ## Features
 
